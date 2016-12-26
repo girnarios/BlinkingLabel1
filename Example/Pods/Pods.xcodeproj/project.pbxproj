@@ -12,7 +12,7 @@
 		25563F9CE6A8B9FE57224CF7E353FF4F /* Pods-BlinkingLabel1_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9739980283E766DC95F7128359D87B9A /* Pods-BlinkingLabel1_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28C4561626052A9052969F249F1C03AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		478ED926843450912A02D1799B593661 /* Pods-BlinkingLabel1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA538198019E70ADB871FA371E14B133 /* Pods-BlinkingLabel1_Tests-dummy.m */; };
-		699CAADFF7998939B5B09A34F53138F5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0DB2DDA91872FA02BD91CCF5755AB /* ReplaceMe.swift */; };
+		699CAADFF7998939B5B09A34F53138F5 /* BlinkingLabel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0DB2DDA91872FA02BD91CCF5755AB /* BlinkingLabel1.swift */; };
 		6A196B48B499C91323ABC7478063B888 /* BlinkingLabel1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C79EDA204F9DCAD1B9E96DA064648B3 /* BlinkingLabel1-dummy.m */; };
 		B4BB124483D9C966FD92CFADD84DE147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		C23588D169DEF06CC81BCA3A7CAD682F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -54,7 +54,7 @@
 		9CE9B814907AB85EE7091DA1C3AB2A34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FA8EEB24F8EDC836F7941B55AC36F05 /* Pods-BlinkingLabel1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlinkingLabel1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A0F15E2A390D44DBFD284D27556569FE /* Pods-BlinkingLabel1_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlinkingLabel1_Example-resources.sh"; sourceTree = "<group>"; };
-		A8C0DB2DDA91872FA02BD91CCF5755AB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		A8C0DB2DDA91872FA02BD91CCF5755AB /* BlinkingLabel1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkingLabel1.swift; sourceTree = "<group>"; };
 		C2C3FC885ED64B8EF0FA8D76E2945DB5 /* BlinkingLabel1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BlinkingLabel1.modulemap; sourceTree = "<group>"; };
 		CA538198019E70ADB871FA371E14B133 /* Pods-BlinkingLabel1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlinkingLabel1_Tests-dummy.m"; sourceTree = "<group>"; };
 		CB6E4717ECA24AA90E6E4515150DF128 /* Pods_BlinkingLabel1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkingLabel1_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 		0C44B2314478147C6B442E7E81FFA952 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A8C0DB2DDA91872FA02BD91CCF5755AB /* ReplaceMe.swift */,
+				A8C0DB2DDA91872FA02BD91CCF5755AB /* BlinkingLabel1.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -346,7 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A196B48B499C91323ABC7478063B888 /* BlinkingLabel1-dummy.m in Sources */,
-				699CAADFF7998939B5B09A34F53138F5 /* ReplaceMe.swift in Sources */,
+				699CAADFF7998939B5B09A34F53138F5 /* BlinkingLabel1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
